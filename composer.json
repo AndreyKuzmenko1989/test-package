@@ -13,10 +13,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Andrey\\ServiceProvider"
+        "AndreyKuzmenko\\ServiceProvider"
       ],
       "aliases": {
-        "Debugbar": "Andrey\\Facade"
+        "Debugbar": "AndreyKuzmenko\\Facade"
       }
     }
   }
