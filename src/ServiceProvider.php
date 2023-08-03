@@ -1,7 +1,7 @@
 <?php
 namespace AndreyKuzmenko;
 
-use AndreyKuzmenko\Facades\Calculator;
+use AndreyKuzmenko\Controllers\Calculator;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 class ServiceProvider extends BaseServiceProvider
 {
