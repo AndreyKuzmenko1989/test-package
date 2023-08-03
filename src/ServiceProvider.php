@@ -10,7 +10,7 @@ class ServiceProvider extends BaseServiceProvider
     public function boot(): void
     {
         $this->publishes([
-            __DIR__ . '/../config/andrey-config.php' => config_path('andrey-config.php'),
+            __DIR__ . '/../config/app.php' => config_path('app.php'),
         ]);
 
         $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
@@ -24,7 +24,7 @@ class ServiceProvider extends BaseServiceProvider
     public function register(): void
     {
         $this->mergeConfigFrom(
-            __DIR__.'/../config/andrey-config.php', 'andrey-config'
+            __DIR__ . '/../config/app.php', 'andrey-config'
         );
     }
 }

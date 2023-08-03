@@ -1,4 +1,0 @@
-<?php
-[
-  'andrey-config' => 'test'
-];
