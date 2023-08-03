@@ -1,0 +1,23 @@
+{
+  "name": "andrey/test-package",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Andrey\\": "./src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Andrey\\ServiceProvider"
+      ],
+      "aliases": {
+        "Debugbar": "Andrey\\Facade"
+      }
+    }
+  }
+}
