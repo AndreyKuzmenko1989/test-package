@@ -16,7 +16,7 @@
         "AndreyKuzmenko\\ServiceProvider"
       ],
       "aliases": {
-        "Debugbar": "AndreyKuzmenko\\Facade"
+        "Calculator": "AndreyKuzmenko\\Facades\\Calculator"
       }
     }
   }

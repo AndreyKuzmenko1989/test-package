@@ -1,6 +1,7 @@
 <?php
 namespace AndreyKuzmenko;
 
+use AndreyKuzmenko\Facades\Calculator;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 class ServiceProvider extends BaseServiceProvider
 {
@@ -26,5 +27,9 @@ class ServiceProvider extends BaseServiceProvider
         $this->mergeConfigFrom(
             __DIR__ . '/../config/app.php', 'andrey-config'
         );
+
+        $this->app->bind('calculator', function($app) {
+            return new Calculator();
+        });
     }
 }
