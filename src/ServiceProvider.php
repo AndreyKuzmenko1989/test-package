@@ -1,5 +1,5 @@
 <?php
-namespace Andrey;
+namespace AndreyKuzmenko;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 class ServiceProvider extends BaseServiceProvider
