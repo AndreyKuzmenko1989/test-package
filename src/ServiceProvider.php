@@ -15,7 +15,7 @@ class ServiceProvider extends BaseServiceProvider
 
         $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
 
-        $this->publishes(base_path().'/../database/migrations');
+        $this->loadMigrationsFrom(base_path().'/../database/migrations');
     }
 
     /**
