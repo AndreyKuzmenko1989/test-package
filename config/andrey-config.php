@@ -1,1 +1,4 @@
 <?php
+[
+  'andrey-config' => 'test'
+];
