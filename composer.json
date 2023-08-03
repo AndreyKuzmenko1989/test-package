@@ -1,5 +1,5 @@
 {
-  "name": "andrey/test-package",
+  "name": "andrey-kuzmenko/test-package",
   "type": "library",
   "license": "MIT",
   "require": {
