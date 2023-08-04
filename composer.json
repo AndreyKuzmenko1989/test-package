@@ -19,5 +19,8 @@
         "Calculator": "AndreyKuzmenko\\Facades\\Calculator"
       }
     }
+  },
+  "require-dev": {
+    "orchestra/testbench": "^8.5"
   }
 }
